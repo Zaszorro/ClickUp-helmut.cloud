@@ -62,9 +62,9 @@ jobs:
         id: upload
         uses: moovit-sp-gmbh/hcloud-catalog-upload-action@v1.1.0
         with:
-          endpoint: https://02bbf6f516d9dae0892ad39383159e31.r2.cloudflarestorage.com
+          endpoint: https://s3.tebi.io
           bucket: helmutcloudnodes
-          public_endpoint: https://02bbf6f516d9dae0892ad39383159e31.r2.cloudflarestorage.com
+          public_endpoint: https://s3.tebi.io
           region: auto
           access_key_id: ${{ secrets.access_key_id }}
           secret_access_key: ${{ secrets.secret_access_key }}
