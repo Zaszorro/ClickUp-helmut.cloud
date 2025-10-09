@@ -1,10 +1,14 @@
 import Catalog from "./lib/Catalog";
-import HttpClient from "./lib/nodes/HttpClient";
+import ClickUpCreateTask from "./lib/nodes/clickup/ClickUpCreateTask";
+import ClickUpDeleteTask from "./lib/nodes/clickup/ClickUpDeleteTask";
+import ClickUpUpdateTask from "./lib/nodes/clickup/ClickUpUpdateTask";
 
 export default new Catalog(
-    "example name",
-    "example description",
+    "ClickUp Catalog",
+    "Catalog to connect to ClickUp",
     "https://app.helmut.cloud/img/logo_white.webp",
-    "1.5.0-dev-6",
-    HttpClient
+    "1.5.0",
+    ClickUpCreateTask,
+    ClickUpUpdateTask,
+    ClickUpDeleteTask
 );
