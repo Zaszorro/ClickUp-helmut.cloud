@@ -1,3 +1,6 @@
+::wavedoc
+---
+
 title: ClickUp — Create Task
 description: |
     Creates a new task in a ClickUp list using POST /list/{list_id}/task. Supports core fields such as name, description, status, assignees, due date, priority, and notifications. Time inputs accept either Unix milliseconds or ISO-8601 strings.
