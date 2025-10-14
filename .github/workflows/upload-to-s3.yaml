@@ -62,7 +62,7 @@ jobs:
         id: upload
         uses: moovit-sp-gmbh/hcloud-catalog-upload-action@v1.1.0
         with:
-          endpoint: https://moov-dm.s3.amazonaws.com/
+          endpoint: https://s3.amazonaws.com/
           bucket: moov-dm
           public_endpoint: https://moov-dm.s3.amazonaws.com/
           region: auto
