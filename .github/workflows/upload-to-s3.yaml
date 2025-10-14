@@ -65,7 +65,7 @@ jobs:
           endpoint: https://s3.eu-central-1.amazonaws.com/
           bucket: moov-dm
           public_endpoint: https://s3.eu-central-1.amazonaws.com/
-          region: auto
+          region: eu-central-1
           access_key_id: ${{ secrets.access_key_id }}
           secret_access_key: ${{ secrets.secret_access_key }}
           name: ${{ steps.catalog-info.outputs.name }}
