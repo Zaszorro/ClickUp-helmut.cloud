@@ -1,4 +1,15 @@
 [
+     {
+    "version": "1.0.16",
+    "date": "2025-10-14",
+    "changes": [
+      {
+        "description": "Added a fix in docs and node categories",
+        "type": "Features",
+        "breaking": false
+      }
+    ]
+  },
    {
     "version": "1.0.15",
     "date": "2025-10-14",
@@ -9,8 +20,7 @@
         "breaking": false
       }
     ]
-  }
-  
+  },
   {
     "version": "1.0.14",
     "date": "2025-10-10",
