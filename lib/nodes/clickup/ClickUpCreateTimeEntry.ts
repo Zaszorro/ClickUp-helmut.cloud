@@ -41,7 +41,7 @@ export default class ClickUpCreateTimeEntry extends Node {
     kind: "NODE",
     category: "ClickUp Time Entries",
     color: "node-aquaGreen",
-    version: { major: 1, minor: 1, patch: 0, changelog: ["Add START_NOW to default start to Date.now()", "Initial"] },
+    version: { major: 1, minor: 1, patch: 21, changelog: ["Add START_NOW to default start to Date.now()", "Initial"] },
     author: {
       name: "David Merzenich",
       company: "MSP GmbH",
@@ -57,12 +57,7 @@ export default class ClickUpCreateTimeEntry extends Node {
       { name: InputName.DESCRIPTION, description: "Description", type: "STRING_LONG" as InputType, example: "Standup + Review" },
       { name: InputName.BILLABLE, description: "Billable?", type: "BOOLEAN" as InputType, example: true },
       { name: InputName.TAGS, description: "Comma-separated labels", type: "STRING" as InputType, example: "clientA,internal" },
-      {
-        name: InputName.START_NOW,
-        description: "If true or unset, uses the node's execution time as start",
-        type: "BOOLEAN" as InputType,
-        example: true,
-      },
+      { name: InputName.START_NOW,description: "If true or unset, uses the node's execution time as start",type: "BOOLEAN" as InputType,example: true,},
     ],
     outputs: [
       { name: OutputName.STATUS, description: "HTTP status", type: "NUMBER" as OutputType, example: 200 },
