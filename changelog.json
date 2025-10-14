@@ -1,4 +1,15 @@
-[
+[  
+  {
+    "version": "1.0.22",
+    "date": "2025-10-14",
+    "changes": [
+      { 
+        "description": "Formated Node Documentation again and again",
+        "type": "Features",
+        "breaking": false
+      }
+    ]
+  },
    {
     "version": "1.0.21",
     "date": "2025-10-14",
