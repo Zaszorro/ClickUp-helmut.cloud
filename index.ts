@@ -10,7 +10,7 @@ import ClickUpStartTimeEntry from "./lib/nodes/clickup/ClickUpStartTimeEntry";
 
 
 export default new Catalog(
-    "ClickUp Catalog",
+    "ClickUP",
     "Catalog to connect to ClickUp",
     "https://app.helmut.cloud/img/logo_white.webp",
     "1.5.0",

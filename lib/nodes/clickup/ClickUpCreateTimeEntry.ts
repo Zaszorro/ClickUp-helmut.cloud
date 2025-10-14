@@ -41,7 +41,7 @@ export default class ClickUpCreateTimeEntry extends Node {
     kind: "NODE",
     category: "ClickUp Time Entries",
     color: "node-aquaGreen",
-    version: { major: 1, minor: 1, patch: 21, changelog: ["Add START_NOW to default start to Date.now()", "Initial"] },
+    version: { major: 1, minor: 1, patch: 0, changelog: ["First release"] },
     author: {
       name: "David Merzenich",
       company: "MSP GmbH",

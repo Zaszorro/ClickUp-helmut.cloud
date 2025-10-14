@@ -32,7 +32,7 @@ export default class ClickUpDeleteTask extends Node {
     kind: "NODE",
     category: "ClickUp Tasks",
     color: "node-aquaGreen",
-    version: { major: 1, minor: 0, patch: 16, changelog: ["First release"] },
+    version: { major: 1, minor: 1, patch: 0, changelog: ["First release"] },
     author: {
       name: "David Merzenich",
       company: "MSP GmbH",
