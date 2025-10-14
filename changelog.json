@@ -1,4 +1,16 @@
 [
+   {
+    "version": "1.0.15",
+    "date": "2025-10-14",
+    "changes": [
+      {
+        "description": "Added new nodes to handle time entries in ClickUP",
+        "type": "Features",
+        "breaking": false
+      }
+    ]
+  }
+  
   {
     "version": "1.0.14",
     "date": "2025-10-10",
