@@ -1,5 +1,16 @@
 [  
   {
+    "version": "1.0.23",
+    "date": "2025-10-14",
+    "changes": [
+      { 
+        "description": "Formated Node Documentation in Markdown format",
+        "type": "Features",
+        "breaking": false
+      }
+    ]
+  },
+  {
     "version": "1.0.22",
     "date": "2025-10-14",
     "changes": [
