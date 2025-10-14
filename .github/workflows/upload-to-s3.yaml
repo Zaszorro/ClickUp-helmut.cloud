@@ -62,9 +62,9 @@ jobs:
         id: upload
         uses: moovit-sp-gmbh/hcloud-catalog-upload-action@v1.1.0
         with:
-          endpoint: https://s3.tebi.io
-          bucket: helmutcloudnodes
-          public_endpoint: https://s3.tebi.io
+          endpoint: https://moov-dm.s3.amazonaws.com/
+          bucket: moov-dm
+          public_endpoint: https://moov-dm.s3.amazonaws.com/
           region: auto
           access_key_id: ${{ secrets.access_key_id }}
           secret_access_key: ${{ secrets.secret_access_key }}
@@ -74,7 +74,7 @@ jobs:
           minimum_engine_version: ${{ steps.catalog-info.outputs.minimumEngineVersion }}
           version: ${{ steps.catalog-version.outputs.version }}
           source_dir: ${{ github.workspace }}/upload
-          dest_dir: "ClickUP"
+          dest_dir: "NodeKitCatalogs/ClickUp/"
           on_fail: delete
 
       - name: Print catalog registry URL
