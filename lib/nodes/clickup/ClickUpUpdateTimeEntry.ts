@@ -40,7 +40,7 @@ export default class ClickUpUpdateTimeEntry extends Node {
     kind: "NODE",
     category: "ClickUp Time Entries",
     color: "node-aquaGreen",
-    version: { major: 1, minor: 0, patch: 0, changelog: ["Initial"] },
+    version: { major: 1, minor: 0, patch: 0, changelog: ["First release"] },
     author: {
       name: "David Merzenich",
       company: "MSP GmbH",
