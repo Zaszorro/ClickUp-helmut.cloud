@@ -39,7 +39,7 @@ export default class ClickUpUpdateTask extends Node {
     originalName: "ClickUp Update Task",
     description: "Updates a task via PUT /task/{task_id} (partial body supported)",
     kind: "NODE",
-    category: "ClickUp",
+    category: "ClickUp Tasks",
     color: "node-aquaGreen",
     version: { major: 1, minor: 0, patch: 0, changelog: ["Initial"] },
     author: {

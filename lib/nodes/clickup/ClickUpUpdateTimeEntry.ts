@@ -38,7 +38,7 @@ export default class ClickUpUpdateTimeEntry extends Node {
     originalName: "ClickUp Update Time Entry",
     description: "Updates a time entry via PUT /team/{team_id}/time_entries/{timer_id}",
     kind: "NODE",
-    category: "ClickUp",
+    category: "ClickUp Time Entries",
     color: "node-aquaGreen",
     version: { major: 1, minor: 0, patch: 0, changelog: ["Initial"] },
     author: {
