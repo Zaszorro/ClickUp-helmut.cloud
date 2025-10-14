@@ -30,9 +30,9 @@ export default class ClickUpDeleteTask extends Node {
     originalName: "ClickUp Delete Task",
     description: "Deletes a task via DELETE /task/{task_id}",
     kind: "NODE",
-    category: "ClickUp",
+    category: "ClickUp Tasks",
     color: "node-aquaGreen",
-    version: { major: 1, minor: 0, patch: 0, changelog: ["Initial"] },
+    version: { major: 1, minor: 0, patch: 16, changelog: ["Initial"] },
     author: {
       name: "David Merzenich",
       company: "MSP GmbH",

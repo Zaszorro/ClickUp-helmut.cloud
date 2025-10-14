@@ -35,7 +35,7 @@ export default class ClickUpStartTimeEntry extends Node {
     originalName: "ClickUp Start Time Entry",
     description: "Starts a timer via POST /team/{team_id}/time_entries/start",
     kind: "NODE",
-    category: "ClickUp",
+    category: "ClickUp Time Entries",
     color: "node-aquaGreen",
     version: { major: 1, minor: 0, patch: 0, changelog: ["Initial"] },
     author: {

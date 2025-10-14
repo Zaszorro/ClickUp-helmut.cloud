@@ -39,7 +39,7 @@ export default class ClickUpCreateTimeEntry extends Node {
     originalName: "ClickUp Create Time Entry",
     description: "Creates a time entry via POST /team/{team_id}/time_entries",
     kind: "NODE",
-    category: "ClickUp",
+    category: "ClickUp Time Entries",
     color: "node-aquaGreen",
     version: { major: 1, minor: 1, patch: 0, changelog: ["Add START_NOW to default start to Date.now()", "Initial"] },
     author: {

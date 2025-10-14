@@ -38,9 +38,9 @@ export default class ClickUpCreateTask extends Node {
     originalName: "ClickUp Create Task",
     description: "Creates a task in a ClickUp list via POST /list/{list_id}/task",
     kind: "NODE",
-    category: "ClickUp",
+    category: "ClickUp Tasks",
     color: "node-aquaGreen",
-    version: { major: 1, minor: 0, patch: 0, changelog: ["Initial"] },
+    version: { major: 1, minor: 0, patch: 16, changelog: ["Initial"] },
     author: {
       name: "David Merzenich",
       company: "MSP GmbH",

@@ -31,7 +31,7 @@ export default class ClickUpStopTimeEntry extends Node {
     originalName: "ClickUp Stop Time Entry",
     description: "Stops the current timer via POST /team/{team_id}/time_entries/stop",
     kind: "NODE",
-    category: "ClickUp",
+    category: "ClickUp Time Entries",
     color: "node-aquaGreen",
     version: { major: 1, minor: 0, patch: 0, changelog: ["Initial"] },
     author: {

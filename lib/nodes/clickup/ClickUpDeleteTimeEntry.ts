@@ -31,7 +31,7 @@ export default class ClickUpDeleteTimeEntry extends Node {
     originalName: "ClickUp Delete Time Entry",
     description: "Deletes a time entry via DELETE /team/{team_id}/time_entries/{timer_id}",
     kind: "NODE",
-    category: "ClickUp",
+    category: "ClickUp Time Entries",
     color: "node-aquaGreen",
     version: { major: 1, minor: 0, patch: 0, changelog: ["Initial"] },
     author: {
