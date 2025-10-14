@@ -64,7 +64,7 @@ jobs:
         with:
           endpoint: https://s3.amazonaws.com/
           bucket: moov-dm
-          public_endpoint: https://moov-dm.s3.amazonaws.com/
+          public_endpoint: https://s3.amazonaws.com/
           region: auto
           access_key_id: ${{ secrets.access_key_id }}
           secret_access_key: ${{ secrets.secret_access_key }}
