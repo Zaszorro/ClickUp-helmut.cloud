@@ -63,7 +63,7 @@ jobs:
         uses: moovit-sp-gmbh/hcloud-catalog-upload-action@v1.1.0
         with:
           endpoint: https://s3.eu-central-1.amazonaws.com/
-          bucket: 
+          bucket: moov-dm
           public_endpoint: https://s3.eu-central-1.amazonaws.com/
           region: eu-central-1
           access_key_id: ${{ secrets.access_key_id }}
