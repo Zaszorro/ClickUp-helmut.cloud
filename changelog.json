@@ -1,4 +1,15 @@
 [  
+    {
+    "version": "1.1.1",
+    "date": "2025-10-14",
+    "changes": [
+      { 
+        "description": "Fixed Documentation typos",
+        "type": "Bug Fixes",
+        "breaking": false
+      }
+    ]
+  },
   {
     "version": "1.1.0",
     "date": "2025-10-14",
