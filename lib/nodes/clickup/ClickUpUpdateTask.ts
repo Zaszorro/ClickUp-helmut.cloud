@@ -41,7 +41,7 @@ export default class ClickUpUpdateTask extends Node {
     kind: "NODE",
     category: "ClickUp Tasks",
     color: "node-aquaGreen",
-    version: { major: 1, minor: 0, patch: 0, changelog: ["Initial"] },
+    version: { major: 1, minor: 0, patch: 16, changelog: ["Initial"] },
     author: {
       name: "David Merzenich",
       company: "MSP GmbH",

@@ -1,4 +1,15 @@
 [
+      {
+    "version": "1.0.17",
+    "date": "2025-10-14",
+    "changes": [
+      { 
+        "description": "Added more documentations and changed node categories",
+        "type": "Features",
+        "breaking": false
+      }
+    ]
+  },
      {
     "version": "1.0.16",
     "date": "2025-10-14",
